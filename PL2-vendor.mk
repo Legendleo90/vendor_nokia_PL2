@@ -42,7 +42,6 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/PL2/proprietary/vendor/etc/audio_platform_info_pl2_cn.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_platform_info_pl2_cn.xml \
     vendor/nokia/PL2/proprietary/vendor/etc/camera/calibration_test.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/calibration_test.bin \
     vendor/nokia/PL2/proprietary/vendor/etc/camera/camera_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/camera_config.xml \
-    vendor/nokia/PL2/proprietary/vendor/etc/camera/mgbeautify_1_2_4_model:$(TARGET_COPY_OUT_VENDOR)/etc/camera/mgbeautify_1_2_4_model \
     vendor/nokia/PL2/proprietary/vendor/etc/camera/s5k3p3_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/s5k3p3_chromatix.xml \
     vendor/nokia/PL2/proprietary/vendor/etc/camera/s5k4h8_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/s5k4h8_chromatix.xml \
     vendor/nokia/PL2/proprietary/vendor/etc/camera/s5k4h8_pl2_holitech_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/s5k4h8_pl2_holitech_chromatix.xml \
@@ -99,13 +98,11 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/PL2/proprietary/vendor/firmware/sec_s3nrn81_firmware.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/sec_s3nrn81_firmware.bin
 
 PRODUCT_PACKAGES += \
-    libseemore \
     libsensor1 \
     libsensor_reg \
     sensor_calibrate \
     sensors.ssc \
     camera.sdm660 \
-    libMGBeauty \
     libacdb-fts \
     libacdbloader \
     libacdbrtac \
@@ -124,7 +121,6 @@ PRODUCT_PACKAGES += \
     libarcsoft_smart_denoise \
     libaudcal \
     libaudioalsa \
-    libc++_shared \
     libchromatix_s5k3p3_common \
     libchromatix_s5k3p3_cpp_hfr_120 \
     libchromatix_s5k3p3_cpp_hfr_60 \
